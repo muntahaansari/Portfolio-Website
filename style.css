@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;    
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #455E5D;
+}
+
+.nav-left{
+    margin-left: 5vw;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-right{
+    width: 60%;
+}
+
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-right ul li{
+    color: #E2F3EB;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.nav-right ul li:hover{
+    color: #ffffff;
+}
+
+.cont1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+}
+
+.cont1-h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.cont1-h2{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.cont1-h2 span{
+    color: #388076;
+}
+
+.cont1-h3{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.cont1-h3 span{
+    color: #5B4133;
+}
+
+
+.cont2{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont2-left img{
+    height: 60vh;
+}
+
+.cont2-right{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.cont2-h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.cont2-p{
+    font-size: 1.1rem;
+}
+
+.cont2-details{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont2-d-l ul li{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.cont2-d-r ul li{
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.btn{
+    height: 6vh;
+    width: 10vw;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #455E5D;
+}
+
+.btn:hover{
+    background-color: #B9CBC8;
+}
+
+.cont3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont3-left{
+    width: 40vw;
+}
+
+.cont3-h1{
+    font-size: 4rem;
+    margin-bottom: 2vh;
+}
+
+.cont3-p{
+    font-size: 1.2rem;
+    margin-bottom: 5vh;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    color: #ffffff;
+    background-color: #455E5D;
+}
